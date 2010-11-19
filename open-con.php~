@@ -1,0 +1,10 @@
+<?php 
+include('config.php');
+if(!$con) {
+	die("ERORR : " . mysql_error());
+	}
+	else {
+		//echo "<br />CONNCTED<br />";
+		}
+	mysql_select_db('natega', $con);
+?>
